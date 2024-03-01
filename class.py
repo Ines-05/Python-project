@@ -168,21 +168,17 @@ def moyenne_classe_minmax(effectif,moyenne):
 # #calcul des moyennes génerales 
 # moyennes=calculer_moyG(matieres)
 
-# sauvegarder_fichier_csv(list_class,notes_etu)
+# # sauvegarder_fichier_csv(list_class,notes_etu)
 
-# Collecte des informations des étudiants
-etudiants = remplir_information()
+# # Collecte des informations des étudiants
+# etudiants = remplir_information()
 
-# Récupération des noms des étudiants et de leurs notes
-noms_etudiants = list(etudiants.keys())
-notes_etudiants = list(etudiants.values())
+# # Récupération des noms des étudiants et de leurs notes
+# noms_etudiants = list(etudiants.keys())
+# notes_etudiants = list(etudiants.values())
 
-# Appel de la fonction pour sauvegarder les données dans un fichier CSV
-sauvegarder_fichier_csv(noms_etudiants, notes_etudiants)
-
-
-
-
+# # Appel de la fonction pour sauvegarder les données dans un fichier CSV
+# sauvegarder_fichier_csv(noms_etudiants, notes_etudiants)
 
 
 n=[[12,14,5,8,10,17],[8,14,11,10,13,15],[8,14,17,20,19,19]]
