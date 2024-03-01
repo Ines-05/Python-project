@@ -106,6 +106,12 @@ def remplir_information(list_class):
     return pd.DataFrame(student_dictionnary)
 
 
+def recherher_etudiant(student):
+    nom_etudiant=input("Veuillez entrer le nom de l'etudiant que vous souhaiter recherchez :")
+    if nom_etudiant in student["Nom"]:
+        print("Nom")
+
+
 
 list_class , matricules=remplir_liste()
 
