@@ -103,7 +103,7 @@ def remplir_information(list_class):
         mentions=mention(moy_G)
     #creer un dictionnaire qui prend comme valeur le nom et le prenom de l'etudiant et comme valeur une liste de ces notes par matiere
         student_dictionnary.append({"Nom":etudiant,"Matricule":matricule,"Notes":note_list ,"Moyenne:":moy_G ,"Mention":mentions})
-    return pd.DataFrame(student_dictionnary)
+    return pd.DataFrame.from_dict(student_dictionnary)
 
 
 def recherher_etudiant(student):
