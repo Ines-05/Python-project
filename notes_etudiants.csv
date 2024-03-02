@@ -1,2 +1,6 @@
-Nom et prenom,Matiere 1 _Note 1 ,Matiere 1 _Note 2 ,Moyenne
-Nom et prenom,Matiere 1 _Note 1 ,Matiere 1 _Note 2 ,Matiere 2 _Note 1 ,Matiere 2 _Note 2 ,Moyenne
+Nom,Matricule,Notes,Moyenne:,Mention
+gerard aheto,123,"[[14.0, 12.0], [7.0, 4.0], [11.0, 12.0], [18.0, 18.0], [12.0, 15.0]]",12.3,Mention : Assez-bien
+judicael degbe,1478,"[[16.0, 17.0], [5.0, 11.0], [12.0, 18.0], [9.5, 16.0], [10.0, 17.0]]",13.15,Mention : Assez-bien
+oroiu jui,1589,"[[16.0, 14.0], [8.0, 14.0], [12.0, 16.0], [10.0, 13.0], [18.0, 18.0]]",13.9,Mention : Assez-bien
+pomli htujk,14856,"[[18.5, 14.5], [16.0, 11.0], [7.0, 15.5], [17.0, 14.0], [8.0, 12.0]]",13.35,Mention : Assez-bien
+yivne dossou,12478,"[[12.0, 10.0], [14.0, 8.0], [14.0, 11.0], [12.0, 13.0], [16.0, 19.0]]",12.9,Mention : Assez-bien
