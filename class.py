@@ -3,8 +3,10 @@ import csv
 list_class=[]
 matricules=[]
 
+print("********Bienvenue sur notre plateforme de gestion de notes scolaires \n  Veuillez choisir parmi notre menu \n")
+print("1) Remplir la liste de la salle \n 2)Rechercher un étudiant \n 3) Remplir le fichier de la salle sur les notes de l'etudiant \n  ")
 
-print("-------------------Bienvenue sur notre application de gestion de notes dans une classe ---------------")
+
 nbr_etudiant=int(input("Quel est l'effectif de la classe : "))
 nbr_remplir=int(input("Veuillez préciser le nombre d'etudiants à enregistrer : "))
 nbr_matiere=int(input("Veuillez indiquez le nombre de matière : "))
@@ -111,7 +113,25 @@ def recherher_etudiant(student):
     if nom_etudiant in student["Nom"]:
         print("Nom")
 
+# def afficher_bulletin_etudiant():
+#     print("****************Bulletin etudiant **************")
 
+#     print("")
+
+
+# choix =input("Effectuer votre choix ")
+
+# while (choix !="1" and choix !="2" and choix !="3"):
+#     choix =input("Veuillez refaire votre choix : ")
+
+# if choix =="1":
+#     list_class,matricules=remplir_liste()
+
+# elif choix =="2":
+#     etudiant =recherher_etudiant()
+# else:
+#     student_dictionnary=remplir_information()
+    
 
 list_class , matricules=remplir_liste()
 
